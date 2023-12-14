@@ -1,0 +1,25 @@
+/* *********************************nav **********************************/
+nav {
+    position: fixed;
+    width: 350px;
+    height: 100vh;
+    box-shadow: 1px -3px 8px rgba(0, 0, 0, 0.322);
+    z-index: 100;
+}
+
+.image-principale {
+    width: 100vw;
+    position: relative;
+}
+
+.image-principale img {
+    position: absolute;
+    width: 80%;
+    height: auto;
+}
+
+
+
+header {
+    display: flex;
+}
