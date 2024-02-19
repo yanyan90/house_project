@@ -1,4 +1,5 @@
 <x-layout titre="Accueil" css="{{ asset('css/accueil.css') }}">
+    <x-scroll />
     <x-nav.nav />
     <header>
         <div class="image-principale">
@@ -6,7 +7,7 @@
             <div class="overlay"></div>
             <div class="entete">
                 <h1>faite de votre rêve une <br> réalité!</h1>
-                <a href="{{ route('accueil') }}"><button>découvrez nos services</button></a>
+                <a href="{{ route('services') }}"><button>découvrez nos services</button></a>
             </div>
             <div>
                 <img src="#" alt="icon">
@@ -45,7 +46,8 @@
                     Proin nec justo a arcu vulputate accumsan. Nunc consequat, nulla vel volutpat
                     cursus, eros odio convallis dolor.
                 </p>
-                <a href="#"><button>Nos réalisations <span class="material-symbols-outlined">
+                <a href="{{ route('realisations.index') }}"><button>Nos réalisations <span
+                            class="material-symbols-outlined">
                             arrow_forward_ios
                         </span> </button></a>
             </div>

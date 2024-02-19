@@ -23,9 +23,11 @@
     {{ $slot }}
 
     <script src="js/wow.min.js"></script>
+    <script src="js/scroll.js"></script>
     <script>
         new WOW().init();
     </script>
+    <script src="js/random.js"></script>
 </body>
 
 </html>

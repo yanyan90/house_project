@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateInterieursTable extends Migration
+class CreateRealisationsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,8 @@ class CreateInterieursTable extends Migration
      */
     public function up()
     {
-        Schema::create('interieurs', function (Blueprint $table) {
+        Schema::create('realisations', function (Blueprint $table) {
             $table->id();
-            $table->string('nom');
-            $table->string('image_url')->nullable();
             $table->timestamps();
         });
     }
@@ -28,6 +26,6 @@ class CreateInterieursTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('interieurs');
+        Schema::dropIfExists('realisations');
     }
 }

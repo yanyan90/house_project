@@ -12,8 +12,8 @@ class ServiceController extends Controller
     {
 
         return view("services", [
-            "interieure" => Interieur::all(),
-            "exterieure" => Exterieur::all(),
+            "prduitsInterieurs" => Interieur::all(),
+            "prduitsExterieurs" => Exterieur::all(),
         ]);
     }
 }

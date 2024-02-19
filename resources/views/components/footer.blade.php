@@ -22,6 +22,6 @@
             <a href="#"><img src="/img/facebook.png" alt="facebook" width="25"></a>
             <a href="#"><img src="/img/instagram.png" alt="instagram" width="25"></a>
         </div>
-        <a href="#"><img class="back-to-top" src="/img/up-arrow.png" alt="arrow-up"></a>
+
     </div>
 </div>
